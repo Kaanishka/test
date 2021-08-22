@@ -12,7 +12,7 @@ pipeline{
 				echo "testing app.."
 			}
 		stage("deploy"){
-			when{
+			when {
 				branch "fea*"
 			}
 			steps{
