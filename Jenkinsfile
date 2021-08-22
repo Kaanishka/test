@@ -11,6 +11,7 @@ pipeline{
 			steps{
 				echo "testing app.."
 			}
+		}	
 		stage("deploy"){
 			when {
 				branch "fea*"
