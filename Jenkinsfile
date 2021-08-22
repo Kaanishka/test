@@ -14,9 +14,9 @@ pipeline{
 		stage("deploy"){
 			when{
 				branch "fea*"
+			}
 			steps{
 				echo "deploying.."
-			}
 			}
 		}
 			
